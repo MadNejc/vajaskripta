@@ -15,11 +15,11 @@ do
 
 for i in {1..5}
 do
-    sudo adduser uporabnik$i;
+    sudo adduser uporabnik$i
     sudo usermod -aG sudo uporabnik$i
     done
 
-sudo apt-get update;
+sudo apt-get update
 
 
 sudo apt-get install nginx
